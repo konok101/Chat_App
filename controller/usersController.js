@@ -2,9 +2,7 @@
 //get lgin  page
  
 function  getUsers(req, res, next) {
-    res.render("users", {
-        title: "users chat Applcation"
-    })
+    res.render("users")
 }
 
 
